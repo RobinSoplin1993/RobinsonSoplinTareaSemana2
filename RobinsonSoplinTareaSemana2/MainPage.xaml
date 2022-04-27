@@ -5,8 +5,10 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
-            <Label Text="Bienvenido a la Semana 3 AppMovil" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+            <Label Text="Bienvenido a la Semana 3 AppMovil" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
         </Frame>
+
+        <Image Source="https://www.uisrael.edu.ec/wp-content/uploads/2020/05/logo-UISRAEL.png"/>
 
         <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario"/>
         <Entry x:Name="txtPass" Placeholder="Ingrese la Contraseña" IsPassword="True"/>
